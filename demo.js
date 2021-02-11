@@ -9,6 +9,7 @@ url需要转义，^开始，https后可以加问号，意义不明。
 
 // 开头
 var body = $response.body;
+var url = $request.url;
 var obj = JSON.parse(body);
 //
 var obj = JSON.parse($response.body);
