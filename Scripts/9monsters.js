@@ -2,7 +2,7 @@
 9monsters会员部分功能：去广告，传送功能，被收藏显示。
 未实现的功能：分身，框框，推荐用户，属性比率，删除足迹。
 
-^https?:\/\/api\.ninemonsters\.com\/(premium\/getproducts\?|home\/get\?|initial\/get\?) url script-response-body arda/9monsters.js
+^https?:\/\/api\.ninemonsters\.com\/(premium\/getproducts\?|home\/get\?|initial\/get\?) url script-response-body https://raw.githubusercontent.com/ardayan/QuantumultX/master/Scripts/9monsters.js
 
 hostname = api.ninemonsters.com
 
