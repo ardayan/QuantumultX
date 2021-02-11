@@ -50,3 +50,5 @@ if (url.indexOf(home) != -1) {
 	obj.data.payment = 1;
 	body = JSON.stringify(obj);
 }
+
+$done({body});
