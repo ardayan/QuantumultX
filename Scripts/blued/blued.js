@@ -17,9 +17,10 @@ function sign() {
     let detail = ``
     const isSign = result.data.isSign
     const count = result.data.count
+    const money = result.data.moneyList.total
     if (isSign == true) {
       subTitle = `签到结果: 成功`
-      detail = `连续签到${count}天`
+      detail = `连续签到${count}天，已累计获得${money}元红包`
     } else if (isSign == false) {
       subTitle = `签到结果: 失败`
     }
