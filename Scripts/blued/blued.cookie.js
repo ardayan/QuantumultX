@@ -1,3 +1,15 @@
+/*
+
+签到一次获取cookie
+
+[rewrite_local]
+^https:\/\/activity\.blued\.cn\/hd\/forever\/sign\/in url script-request-header https://raw.githubusercontent.com/ardayan/QuantumultX/master/Scripts/blued/blued.cookie.js
+
+[mitm]
+activity.blued.cn
+
+*/
+
 const cookieName = 'Blued'
 const signurlKey = 'arda_signurl_blued'
 const signheaderKey = 'arda_signheader_blued'
